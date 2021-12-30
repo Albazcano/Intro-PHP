@@ -7,7 +7,8 @@
     <title>Reto1</title>
 </head>
 <body>
-
+    <a href="index.php">Atrás</a>
+    
     <main>
 
         <h1>"Lista de la compra"</h1>

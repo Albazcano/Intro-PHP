@@ -8,25 +8,25 @@
 </head>
 
 <body>
-<a href="index.php">Atrás</a>
+    <a href="index.php">Atrás</a>
 
     <h1>"Lista de alumnos"</h1>
    
-    <form action="alumnos.php" method="POST">
-    <p>
+    <form action="" method="POST">
+    <div class = "identificacion" >
         Nombre: <input type="text" name="nombre">
-    </p>
+    </div>
 
-    <p>Contenidos a reforzar:<br>
+    <div class = "materias">Contenidos a reforzar:<br>
 
         <input type="radio" name="contenidos" value="htmlCss"> HTML y CSS<br>
 
-        <input type="radio" name="contenidosReforzar"value="javascript"> Javascript<br>
+        <input type="radio" name="contenidos"value="javascript"> Javascript<br>
 
-        <input type="radio" name="contenidosReforzar"value="php"> PHP
-    </p>
+        <input type="radio" name="contenidos"value="php"> PHP
+    </div>
 
-    <p> Tipo de ejercicios<br>
+    <div class = "actividades"> Tipo de ejercicios<br>
     <select name="ejercicios">
 
         <option>Ejercicio práctico</option>
@@ -36,17 +36,29 @@
         <option>Clase guiada</option>
 
     </select>
-    </p>
-    <p><input type="submit" value="Enviar"></p>
+    </div>
+    
+    <!-- <p><input type="submit" value="Enviar"></p> -->
+
+    <button class="btn btn-primary" type="submit" id="submit" name="submit">Enviar</button>
     </form>
 
-    <?php   
-    
-    $nombre = $_POST['nombre'];
-    $contenidosReforzar = $_POST['contenidosReforzar'];
-    $ejercicios = $_POST['ejercicios'];
+    <div id="formulario">
 
-    ?>
+        <?php   
+       
+        if (isset($_POST['submit'])) {
+            echo "<h1>Formulario</h1>";
+            $nombre = $_POST["nombre"];
+            $contenidos = $_POST["contenidos"];
+            $ejercicios = $_POST["ejercicios"];
+            echo "Nombre: " . $nombre . "</br>";
+            echo "Materias a reforzar: " . $contenidos . "</br>";
+            echo "Actividades: " . $ejercicios. "</br>";
+
+        }
+        ?>
+    </div>
 
 </body>
 

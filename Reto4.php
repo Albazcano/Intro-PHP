@@ -50,15 +50,16 @@
             {
                 return $this->image;
             }
+            
         
         }
         
-            $movie1 = new Movie('The King´s Man', '2021', '2h 10min', '<link href="./assets/kingsman.jpg">');
-            $movie2 = new Movie('The Vault', '2021', '1h 58min', '<link href="./assets/The Vault.jpg">');
-            $movie3 = new Movie('Sing 2', '2021', '2h', '<link href="./assets/Sing2.jpg">');            
-            $movie4 = new Movie('Ghostbusters: Afterlife', '2021', '2h 05min', '<link href="./assets/Ghostbusters_afterlife.png">');
-            $movie5 = new Movie('Silent Night', '2021', '1h 32 min', '<link href="./assets/Silent_Night.jpg">');
-            $movie6 = new Movie('The last Execution', '2021', '1h 56min', '<link href="./assets/The last execution.jpg">');
+            $movie1 = new Movie('The King´s Man', '2021', '2h 10min', 'https://bit.ly/31fsqzQ');
+            $movie2 = new Movie('The Vault', '2021', '1h 58min', 'https://bit.ly/3sIZOKq');
+            $movie3 = new Movie('Sing 2', '2021', '2h', 'https://bit.ly/3Hmiu6X');            
+            $movie4 = new Movie('Ghostbusters: Afterlife', '2021', '2h 05min', 'https://bit.ly/3qB7A6x');
+            $movie5 = new Movie('Silent Night', '2021', '1h 32 min', 'https://bit.ly/3sKKLzT');
+            $movie6 = new Movie('The last Execution', '2021', '1h 56min', 'https://bit.ly/3FIRYV0');
             $listOfMovies = array($movie1, $movie2, $movie3, $movie4, $movie5, $movie6);
     ?>
     

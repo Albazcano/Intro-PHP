@@ -10,19 +10,19 @@
     <section>
         <ul>
             <li>
-               <a href="./exercise1.php">Exercise1</a> 
+               <a href="./reto1/reto1.php">Reto1</a> 
             </li>
 
             <li>
-               <a href="./exercise2.php">Exercise2</a> 
+               <a href="./reto2/reto2.php">Reto2</a> 
             </li>
 
             <li>
-               <a href="./exercise3.php">Exercise3</a> 
+               <a href="./reto3/Reto3.php">Reto3</a> 
             </li>
 
             <li>
-               <a href="./exercise4.php">Exercise4</a> 
+               <a href="./reto4/Reto4.php">Reto4</a> 
             </li>
         </ul>
     </section>

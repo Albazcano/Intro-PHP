@@ -43,7 +43,7 @@
     <?php   
     
     $nombre = $_POST['nombre'];
-    $contenidosReforzar = $_POST['contenidos'];
+    $contenidosReforzar = $_POST['contenidosReforzar'];
     $ejercicios = $_POST['ejercicios'];
 
     ?>

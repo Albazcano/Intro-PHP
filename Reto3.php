@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reto3</title>
+    <title>Reto 3</title>
 
 </head>
 <body>
-    <a href="index.php">Volver</a>
+    <a href="index.php">Atrás</a>
     <h1>Usuarios Biblioteca</h1>
     
     <?php

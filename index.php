@@ -7,25 +7,26 @@
     <title>Intro PHP</title>
 </head>
 <body>
-    <section>
+    <main>
         <ul>
             <li>
-               <a href="./reto1.php">Reto1</a> 
+            <a href="./reto1.php">Reto1</a> 
             </li>
 
             <li>
-               <a href="./reto2.php">Reto2</a> 
+            <a href="./reto2.php">Reto2</a> 
             </li>
 
             <li>
-               <a href="./reto3.php">Reto3</a> 
+            <a href="./reto3.php">Reto3</a> 
             </li>
 
             <li>
-               <a href="./reto4.php">Reto4</a> 
+            <a href="./reto4.php">Reto4</a> 
             </li>
         </ul>
-    </section>
+        
+    </main>
 </body>
 </html>
 

@@ -6,6 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Intro PHP</title>
 </head>
+
+<style>
+     <style>
+        body {
+            width: 80%;
+            margin: 0 auto;        
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        ul li {
+            margin-top: 1.25rem;
+            font-size: 1.25rem;
+        }
+        
+    </style>
+
+</style>
 <body>
     <main>
         <ul>

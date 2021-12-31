@@ -8,6 +8,38 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     
 </head>
+
+<style>
+
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin bottom: 0.62rem;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    
+}
+.card {
+    width: 20%;
+    margin-top: 0.62rem;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 25rem;
+    object-fit: cover;
+}
+
+</style>
+
 <body>
     <a href="index.php">Atrás</a>
     <h1> Películas</h1>

@@ -6,6 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reto 1</title>
 </head>
+
+<style>
+    h1 {
+        text-align: center;
+    }
+
+    body {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1.25rem;
+    }
+</style>
+
 <body>
     <a href="index.php">Atrás</a>
     
@@ -17,7 +30,7 @@
 
     <section>
         <?php    
-        $products= ['patatas', 'aceite', 'huevos', 'sal']; 
+        $products= ['Patatas', 'Aceite', 'Huevos', 'Sal']; 
         $shoppingList="<ul>". PHP_EOL;
 
         foreach ($products as &$valor) {

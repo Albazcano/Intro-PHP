@@ -7,6 +7,51 @@
     <title>Reto 2</title>
 </head>
 
+<style>
+
+    body {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+
+    form {
+        width: 50%;
+        margin: 2.7rem auto;
+        font-size: 1.25rem;
+    }
+
+    .identificacion {
+        font-weight: bold;
+        margin-bottom: 0.62rem;
+    }
+
+    .materias {
+        font-weight: bold;
+        margin-top: 0.62rem;
+        margin-bottom: 0.62rem;
+    }
+
+    .actividades {
+        font-weight: bold;
+        margin-top: 0.62rem;
+    }
+
+    #submit {
+        display: block;
+        width: 9.37rem;
+        margin: 1.25rem auto;
+        padding: 1em;
+        font-size: 1.12rem;
+        font-weight: bold;
+    }
+        
+</style>
+
 <body>
     <a href="index.php">Atrás</a>
 

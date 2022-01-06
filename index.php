@@ -8,26 +8,27 @@
 </head>
 
 <style>
-     <style>
-        body {
-            width: 80%;
-            margin: 0 auto;        
-        }
+     
+    body {
+        width: 80%;
+        margin: 0 auto;      
+    }
 
-        h1 {
-            text-align: center;
-        }
+    h1 {
+        text-align: center;
+    }
 
-        ul li {
-            margin-top: 1.25rem;
-            font-size: 1.25rem;
-        }
+    ul li {
+        margin-top: 1.25rem;
+        font-size: 1.25rem;
         
-    </style>
+    }
 
 </style>
 <body>
     <main>
+
+    <h1>Intro PHP</h1>
         <ul>
             <li>
             <a href="./reto1.php">Reto1</a> 
